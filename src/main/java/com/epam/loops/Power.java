@@ -5,9 +5,9 @@ import javax.naming.spi.DirStateFactory.Result;
 public class Power {
 
     public void printPower(int numberToPrint, int power) {
-        int result = 1;
+        long result = 1;
         for(int i = 0; i < power; i++){
-            result = (numberToPrint * i);
+            result =  result*numberToPrint;
         }
         System.out.println(result);
     }
