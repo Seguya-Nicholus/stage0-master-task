@@ -3,12 +3,21 @@ package com.epam.loops;
 public class Pyramid {
 
   public void printPyramid(int cathetusLength) {
-    int i = 1;
-    String sp = "";
-    System.out.println();
-    while (!(i > cathetusLength)) {
-      String k = String.valueOf(i);
-      System.out.println(k + sp + k);
+    int i, j, k, a;
+    a = cathetusLength;
+    for (i = 1; i <= cathetusLength; i++) {
+      for (j = a; j > 1; j--) {
+        System.out.print(" ");
+      }
+      for (k = i; k != 0; k--) {
+        System.out.print(k);
+      }
+      a--;
+
+      for (int l = 2; l <= i; l++) {
+        System.out.print(l);
+      }
+      System.out.println();
     }
   }
 
