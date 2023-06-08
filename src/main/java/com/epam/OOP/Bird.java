@@ -7,15 +7,15 @@ public class Bird extends Animal {
   }
 
   public String getDescription() {
-    String itHasFur = super.hasFur == true ? "a" : "no";
+    String itHasFur = super.getHasFur() == true ? "a" : "no";
 
-    String noOfPaws = super.numberOfPaws > 1 ? "paws" : "paw";
+    String noOfPaws = super.getNumberOfPaws() > 1 ? "paws" : "paw";
 
     return (
       "This animal is mostly " +
       super.getColor() +
       ". It has " +
-      super.numberOfPaws +
+      super.getNumberOfPaws() +
       " " +
       noOfPaws +
       " and " +

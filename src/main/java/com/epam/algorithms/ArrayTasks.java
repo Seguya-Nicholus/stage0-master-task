@@ -15,7 +15,7 @@ public class ArrayTasks {
     seasons[0] = "winter";
     seasons[1] = "spring";
     seasons[2] = "summer";
-    seasons[3] = "fall";
+    seasons[3] = "autumn";
     return seasons;
   }
 
@@ -29,7 +29,7 @@ public class ArrayTasks {
    */
   public int[] generateNumbers(int length) {
     int[] numbers = new int[length];
-    for (int i = 0; i < length + 1; i++) {
+    for (int i = 0; i < length; i++) {
       numbers[i] = i + 1;
     }
     return numbers;

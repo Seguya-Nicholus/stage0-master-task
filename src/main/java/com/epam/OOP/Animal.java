@@ -3,8 +3,8 @@ package com.epam.OOP;
 public class Animal {
 
   private String color;
-  protected int numberOfPaws;
-  protected boolean hasFur;
+  private int numberOfPaws;
+  private boolean hasFur;
 
   public Animal(String color, int numberOfPaws, boolean hasFur) {
     this.color = color;
@@ -14,6 +14,14 @@ public class Animal {
 
   public String getColor() {
     return this.color;
+  }
+
+  public int getNumberOfPaws() {
+    return this.numberOfPaws;
+  }
+
+  public boolean getHasFur() {
+    return this.hasFur;
   }
 
   public String getDescription() {
