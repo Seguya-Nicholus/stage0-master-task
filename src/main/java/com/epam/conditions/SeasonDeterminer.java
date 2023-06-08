@@ -7,8 +7,12 @@ public class SeasonDeterminer {
       System.out.println("Wrong month number");
     }
 
+    if (monthNumber == 12) {
+      System.out.println("Winter");
+    }
+
     for (int i = 1; i < 3; i++) {
-      if (i == monthNumber || monthNumber == 12) {
+      if (i == monthNumber) {
         System.out.println("Winter");
       }
     }
@@ -16,12 +20,6 @@ public class SeasonDeterminer {
     for (int i = 3; i < 6; i++) {
       if (i == monthNumber) {
         System.out.println("Spring");
-      }
-    }
-
-    for (int i = 6; i < 9; i++) {
-      if (i == monthNumber) {
-        System.out.println("Summer");
       }
     }
 
