@@ -13,7 +13,7 @@ public class Bird extends Animal {
 
     return (
       "This animal is mostly " +
-      super.color +
+      super.getColor() +
       ". It has " +
       super.numberOfPaws +
       " " +

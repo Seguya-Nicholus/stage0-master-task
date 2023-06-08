@@ -2,7 +2,7 @@ package com.epam.OOP;
 
 public class Animal {
 
-  protected String color;
+  private String color;
   protected int numberOfPaws;
   protected boolean hasFur;
 
@@ -10,6 +10,10 @@ public class Animal {
     this.color = color;
     this.numberOfPaws = numberOfPaws;
     this.hasFur = hasFur;
+  }
+
+  public String getColor() {
+    return this.color;
   }
 
   public String getDescription() {

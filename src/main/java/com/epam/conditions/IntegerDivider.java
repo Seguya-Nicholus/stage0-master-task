@@ -6,7 +6,7 @@ public class IntegerDivider {
     double result = dividend / divider;
 
     int product = Integer.valueOf((int) (result * divider));
-    if (divider == 0) {
+    if (divider == 0 && dividend > 0) {
       System.out.println("division by zero");
     } else if (product == dividend) {
       System.out.println("can be divided completely");
