@@ -109,6 +109,7 @@ public class ArrayTasks {
 
     return nums;
   }
+
   /**
    * Return a sorted, ragged, two-dimensional int[][] array following these rules: Incoming one-dimensional arrays
    * must be arranged in ascending order of their length; numbers in all one-dimensional arrays must be in ascending
@@ -118,7 +119,7 @@ public class ArrayTasks {
    * <p>
    * arr = [[3, 1, 2,], [3,2]] -> [[2, 3], [1, 2, 3]] arr = [[5, 4], [7]]       -> [[7], [4, 5]]
    */
-  // public int[][] sortRaggedArray(int[][] arr) {
-  //   return null;
-  // }
+  public int[][] sortRaggedArray(int[][] arr) {
+    return null;
+  }
 }
